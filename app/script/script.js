@@ -6,7 +6,7 @@ function f(argument) {
 f('one');
 f('two');
 
-function sum(a = 1, b = 1) {
+function sum(a, b = 1) {
   return a * b;
 }
 
